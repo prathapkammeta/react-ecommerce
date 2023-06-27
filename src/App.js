@@ -6,7 +6,7 @@ import Login from './features/auth/components/Login';
 import LoginPage from './pages/LoginPage';
 import CartPage from './pages/CartPage';
 import Checkout from './pages/Checkout';
-import ProductDetail from './features/product-list/components/ProductDetail';
+import ProductDetailPage from './pages/ProductDetailPage';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/product-detail",
-    element:<ProductDetail></ProductDetail>
+    element:<ProductDetailPage></ProductDetailPage>
   },
   
 ]);
